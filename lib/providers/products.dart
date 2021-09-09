@@ -70,7 +70,7 @@ class Products with ChangeNotifier {
 
   Future<void> addProduct(Product product) {
     final url = Uri.https(
-        'vue-http-demo-c1945-default-rtdb.firebaseio.com', '/products.json');
+        'vue-http-demo-c1945-default-rtdb.firebaseio.com', '/products.jso');
     return http
         .post(
       url,
@@ -93,6 +93,8 @@ class Products with ChangeNotifier {
       _items.add(newProduct);
       // _items.insert(0, newProduct);
       notifyListeners();
+    }).catchError((error) {
+      throw error;
     });
   }
 

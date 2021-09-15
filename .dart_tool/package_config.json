@@ -56,6 +56,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_dotenv",
+      "rootUri": "file:///Users/babyazalea/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_dotenv-5.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/babyazalea/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -176,7 +182,7 @@
       "languageVersion": "2.11"
     }
   ],
-  "generated": "2021-09-07T08:12:07.269677Z",
+  "generated": "2021-09-15T10:45:02.076561Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }
